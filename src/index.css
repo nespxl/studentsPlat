@@ -1,0 +1,31 @@
+html,
+body {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif, serif;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* Полоса прокрутки */
+
+::-webkit-scrollbar {
+    width: 6px; /* ширина всей полосы прокрутки */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* цвет зоны отслеживания */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 68, 204, .3); /* цвет бегунка */
+    border-radius: 20px; /* округлось бегунка */
+}

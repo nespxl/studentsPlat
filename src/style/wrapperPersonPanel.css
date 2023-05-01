@@ -1,0 +1,28 @@
+.person-container {
+    width: 200px;
+}
+
+.person-list {
+    margin: 0;
+    padding: 0;
+    padding: 20px 5px;
+    background: #cc2222;
+    border-radius: 16px;
+    list-style: none;
+}
+
+.person-list:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.person-list__elem:hover {
+    background: rgba(255, 255, 255, .3);
+}
+
+.person-list__link {
+    display: block;
+    padding: 10px;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,7 @@
+.news__section-list {
+    display: flex;
+}
+
+.news__filter {
+    width: 400px;
+}

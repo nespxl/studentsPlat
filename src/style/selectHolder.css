@@ -1,0 +1,39 @@
+.container-select-holder {
+    width: 300px;
+}
+
+.filter__new {
+    background: #cc2222;
+    padding: 30px;
+    border-radius: 16px;
+}
+.filter__new:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.filter__title,
+.filter__new-title {
+    margin: 0;
+    padding: 0;
+}
+
+.filter__title {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.filter__new-title {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.filter__overflow {
+    padding-right: 20px;
+    height: 100vh;
+    overflow-x: auto;
+}
+
+.filter {
+    position: sticky;
+    top: 30px;
+}

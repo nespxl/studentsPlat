@@ -1,0 +1,23 @@
+.person {
+    display: flex;
+}
+
+.person__panel {
+    position: sticky;
+    top: 30px;
+}
+
+.person__panel-wrapper {
+    margin-right: 100px;
+}
+
+.person__info {
+    width: 100%;
+}
+
+.person__title {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,39 @@
+/* avatar */
+.avatar {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.avatar__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, .2);
+}
+.avatar__change {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.avatar__change:hover {
+    background: rgba(0, 0, 0, .2);
+}
+
+.avatar__change-text {
+    position: absolute;
+    top: 5px;
+    color: transparent;
+    text-align: center;
+}
+.avatar__change:hover .avatar__change-text {
+    color: white;
+}
+
+.avatar__name {
+    margin: 0;
+    padding: 0;
+}
