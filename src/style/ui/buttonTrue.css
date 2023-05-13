@@ -1,0 +1,29 @@
+.button-true {
+    padding: 10px 12px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.button-true {
+    background: #04f;
+}
+.button-true:hover {
+    background: rgba(0, 68, 204, .8);
+}
+.button-true:focus {
+    background: rgba(0, 68, 204, .8);
+}
+
+.button-add-container {
+    position: relative;
+}
+
+.button-disabled {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .5);
+}

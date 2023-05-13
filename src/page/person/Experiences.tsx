@@ -3,6 +3,7 @@ import Header from '../../components/Header'
 import '../../style/person/personPage.css'
 import WrapperPerson from '../../components/WrapperPerson'
 import MainContainer from '../../components/UI/MainContainer'
+import WrapperExperience from '../../components/WrapperExperience'
 
 export default function Experiences() {
     return (
@@ -10,7 +11,7 @@ export default function Experiences() {
             <Header />
             <MainContainer>
                 <WrapperPerson title='Опыт работы'>
-                    Опыт работы
+                    <WrapperExperience />
                 </WrapperPerson>
             </MainContainer>
         </React.Fragment>

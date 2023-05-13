@@ -24,7 +24,7 @@ export default function Header() {
                         <Link to='/news' className='nav__link'>Новости</Link>
                     </li>
                     <li className='nav__elem'>
-                        <Link to='/practic' className='nav__link'>Мероприятия</Link>
+                        <Link to='/event' className='nav__link'>Мероприятия</Link>
                     </li>
                     <li className='nav__elem'>
                         <Link to='/practic' className='nav__link'>Практики</Link>

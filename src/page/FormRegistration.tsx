@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header'
 import { Link } from 'react-router-dom'
 import '../style/form.css'
@@ -71,6 +71,7 @@ export default function FormAuthentication() {
                     <div className='form__wrapper'>
                         <h1 className='form__title'>Зарегистрироваться</h1>
                         <Input
+                            className='form__input'
                             place='Введите Имя'
                             type='text'
                             name='name'
@@ -84,6 +85,7 @@ export default function FormAuthentication() {
                             onBlur={(e: any) => blurHandler(e)}
                             onChange={(e: any) => validateTextInput(e, setSurname, setSurnameError)}
                             value={surname}
+                            className='form__input'
                         >
                             <p className='form__error-input'>{(surnameError && surnameDirty) && <div>{surnameError}</div>}</p>
                         </Input>
@@ -91,6 +93,7 @@ export default function FormAuthentication() {
                             onBlur={(e: any) => blurHandler(e)}
                             onChange={(e: any) => validatePasswordInput(e, setPassword, setPasswordError)}
                             value={password}
+                            className='form__input'
                         >
                             <p className='form__error-input'>{(passwordError && passwordDirty) && <div>{passwordError}</div>}</p>
                         </Input>
@@ -98,6 +101,7 @@ export default function FormAuthentication() {
                             onBlur={(e: any) => blurHandler(e)}
                             onChange={(e: any) => validatePasswordInput(e, setRepassword, setRepasswordError)}
                             value={repassword}
+                            className='form__input'
                         >
                             <p className='form__error-input'>{(repasswordError && repasswordDirty) && <div>{repasswordError}</div>}</p>
                         </Input>

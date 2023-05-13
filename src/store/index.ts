@@ -1,8 +1,12 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import sliceNews from "./sliceNews";
+import sliceChatInput from "./sliceChatInput";
+import sliceJob from "./sliceJob";
 
 export const rootReducer = combineReducers({
-    sliceNews
+    sliceNews,
+    sliceChatInput,
+    sliceJob
 })
 
 export const reducerToolkit = () => configureStore({

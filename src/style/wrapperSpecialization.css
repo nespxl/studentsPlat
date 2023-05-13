@@ -1,0 +1,9 @@
+.specialization-form__label {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.specialization-form__wrapper-setting {
+    display: flex;
+    align-items: center;
+}

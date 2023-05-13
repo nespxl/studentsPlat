@@ -1,5 +1,6 @@
 .person {
     display: flex;
+    width: 100%;
 }
 
 .person__panel {
@@ -12,7 +13,8 @@
 }
 
 .person__info {
-    width: 100%;
+    min-width: 600px;
+    margin-right: 50px;
 }
 
 .person__title {
@@ -20,4 +22,10 @@
     padding: 0;
     padding-top: 10px;
     margin-bottom: 50px;
+}
+
+.person__list,
+.person-form,
+.wrapper-contact__block-label {
+    box-sizing: border-box;
 }

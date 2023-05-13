@@ -1,0 +1,106 @@
+.wrapper-experince-container {
+    width: 100%;
+}
+
+.wrapper-experince-container__title {
+    margin-bottom: 30px;
+}
+
+.wrapper-experince-container__new-block {
+    margin-bottom: 30px;
+}
+
+.wrapper-experince-container__new {
+    background: #04f;
+    padding: 10px 12px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    transition: all .2s ease;
+}
+.wrapper-experince-container__new:hover {
+    background: rgba(0, 68, 204, .8);
+}
+.wrapper-experince-container__new:focus {
+    background: rgba(0, 68, 204, .8);
+}
+
+.wrapper-experince-container__new-card:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.card-summary {
+    width: 100%;
+    padding: 20px 30px;
+    -webkit-box-shadow: 10px 12px 40px 11px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 10px 12px 40px 11px rgba(34, 60, 80, 0.2);
+    box-shadow: 10px 12px 40px 11px rgba(34, 60, 80, 0.2);
+    transition: all .2s ease;
+}
+.card-summary:hover {
+    transform: scale(1.05);
+    -webkit-box-shadow: 8px 12px 69px 11px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 8px 12px 69px 11px rgba(34, 60, 80, 0.2);
+    box-shadow: 8px 12px 69px 11px rgba(34, 60, 80, 0.2);
+}
+.card-summary:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.card-summary__block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-summary__avatar {
+    width: 50px;
+    height: 50px;
+    background: tomato;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+.card-summary__title {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.card-summary__text {
+    margin: 0;
+    padding: 0;
+}
+
+.card-summary__link,
+.card-summary__link-delete {
+    padding: 10px 12px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.card-summary__link {
+    background: #04f;
+}
+.card-summary__link:hover {
+    background: rgba(0, 68, 204, .8);
+}
+.card-summary__link:focus {
+    background: rgba(0, 68, 204, .8);
+}
+
+.card-summary__link-delete {
+    background: #cc2222;
+}
+.card-summary__link-delete:hover {
+    background: rgba(204, 34, 34, .8);
+}
+.card-summary__link-delete:focus {
+    background: rgba(204, 34, 34, .8);
+}
+
+.card-summary__link:not(:last-child) {
+    margin-right: 10px;
+}

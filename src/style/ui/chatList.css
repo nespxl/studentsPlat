@@ -1,0 +1,27 @@
+.chat__list {
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+    padding: 10px 0;
+    width: 150px;
+    background: #eeeeee;
+    border-radius: 16px;
+    list-style: none;
+}
+
+.chat__elem {
+    width: 100%;
+    padding: 5px 0;
+}
+
+.chat__link {
+    margin: 0;
+    padding: 0;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+.chat__link:hover {
+    background: #dddddd;
+}

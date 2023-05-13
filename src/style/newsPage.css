@@ -5,3 +5,27 @@
 .news__filter {
     width: 400px;
 }
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    width: 100%;
+}
+
+.item-1 {
+    background-color: black;
+}
+.item-2 {
+    background-color: green;
+}
+.item-3 {
+    background: red;
+}
+.item-4 {
+    background: yellow;
+}
+.item-5 {
+    background-color: orange;
+}

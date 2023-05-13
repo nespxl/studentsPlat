@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { Dispatch, SetStateAction } from "react"
 
 export interface IFormField {
     name?: string
@@ -16,6 +17,7 @@ export interface INews {
 }
 
 export interface IInputForm {
+    title?: string
     place: string
     type: string
     name: string
@@ -27,6 +29,7 @@ export interface IInputForm {
     onChange?: any
     value?: string 
     children?: ReactNode
+    className: string
 }
 
 export interface ILinkPerson {
@@ -43,9 +46,16 @@ export interface IChildren {
     children: ReactNode
 }
 
+export interface IReLink {
+    children: ReactNode
+    relink: string
+    deletes: any
+}
+
 export interface IRadio {
     value: string
     name: string
+    className: string
 }
 
 export interface ICheckbox {
@@ -62,4 +72,38 @@ export interface IValidateTextInput {
     e: any
     setState: any
     setStateError: any
+}
+
+export interface ISocket {
+    socket: any
+}
+
+export interface IMessage {
+    message: any
+}
+
+export interface ICardSummary {
+    company: string
+    direction: string
+    time: string
+    task: string
+    kSkills: string
+}
+
+export interface IButton {
+    setCount: Dispatch<SetStateAction<number>>
+    count: number
+}
+
+export interface IInputTel {
+    placeholder: string
+    title: string
+}
+
+export interface INewsList {
+    array: any
+}
+
+export interface ITextArea {
+    placeholder?: string
 }

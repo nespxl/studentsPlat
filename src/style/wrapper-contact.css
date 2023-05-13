@@ -1,0 +1,28 @@
+.wrapper-contact__block-label:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.wrapper-contact__block-label__select {
+    margin-bottom: 20px;
+}
+
+.wrapper-contact__title {
+    margin-bottom: 20px;
+}
+
+.form-contact__input {
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    outline: 2px solid transparent;
+    transition: all .1s ease;
+    border: 1px solid black;
+}
+.form-contact__input:focus {
+    outline: #04c 2px solid;
+    border: 1px solid transparent;
+}
+.form-contact__input:hover {
+    outline: rgba(0, 68, 204, .6) 2px solid;
+    border: 1px solid transparent;
+}

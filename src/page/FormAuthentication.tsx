@@ -68,6 +68,7 @@ export default function FormAuthentication() {
                             onBlur={(e: any) => blurHandler(e)}
                             onChange={(e: any) => validateTextInput(e, setName, setNameError)}
                             value={name}
+                            className='form__input'
                         >
                             <p className='form__error-input'>{(nameError && nameDirty) && <div>{nameError}</div>}</p>
                         </Input>
@@ -75,6 +76,7 @@ export default function FormAuthentication() {
                             onBlur={(e: any) => blurHandler(e)}
                             onChange={(e: any) => validateTextInput(e, setSurname, setSurnameError)}
                             value={surname}
+                            className='form__input'
                         >
                             <p className='form__error-input'>{(surnameError && surnameDirty) && <div>{surnameError}</div>}</p>
                         </Input>
@@ -82,6 +84,7 @@ export default function FormAuthentication() {
                             onBlur={(e: any) => blurHandler(e)}
                             onChange={(e: any) => validatePasswordInput(e, setPassword, setPasswordError)}
                             value={password}
+                            className='form__input'
                         >
                             <p className='form__error-input'>{(passwordError && passwordDirty) && <div>{passwordError}</div>}</p>
                         </Input>

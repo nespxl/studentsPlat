@@ -27,7 +27,7 @@ export default function SelectHolder() {
                     <div className='filter__new'>
                         <h3 className='filter__new-title'>Уровень дохода</h3>
                         {payVar.map((elem, i) => (
-                            <Radio value={elem} key={i} name='pay' />
+                            <Radio value={elem} key={i} name='pay' className="radio__label-white" />
                         ))}
                     </div>
                     <div className='filter__new'>
@@ -51,7 +51,7 @@ export default function SelectHolder() {
                     <div className='filter__new'>
                         <h3 className='filter__new-title'>Опыт работы</h3>
                         {experience.map((elem, i) => (
-                            <Radio value={elem} key={i} name='experience' />
+                            <Radio value={elem} key={i} name='experience' className="radio__label-white" />
                         ))}
                     </div>
                     <div className='filter__new'>

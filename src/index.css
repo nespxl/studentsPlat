@@ -1,11 +1,18 @@
-html,
-body {
-    box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -ms-box-sizing:border-box;
 }
 
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif, serif;
+    color: #555;
+    box-sizing: border-box;
 }
 
 .container {
@@ -13,10 +20,10 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     padding-bottom: 50px;
+    box-sizing: border-box;
 }
 
 /* Полоса прокрутки */
-
 ::-webkit-scrollbar {
     width: 6px; /* ширина всей полосы прокрутки */
 }

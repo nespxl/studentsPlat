@@ -1,0 +1,18 @@
+.textarea {
+    width: 100%;
+    min-height: 200px;
+    padding: 15px;
+    outline: 2px solid transparent;
+    transition: all .1s ease;
+    border: 1px solid black;
+    font-size: 18px;
+    resize: vertical;
+}
+.textarea:hover {
+    outline: rgba(0, 68, 204, .6) 2px solid;
+    border: 1px solid transparent;
+}
+.textarea:focus {
+    outline: #04c 2px solid;
+    border: 1px solid transparent;
+}

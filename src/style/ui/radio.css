@@ -22,12 +22,10 @@
     top: 16%;
     transform: translate(-50%, -50%) scale(0);
     transition: all .2s ease;
-    /* display: none; */
 }
 
 .radio__real:checked + .radio__custom::before {
     transform: scale(1);
-    /* display: inline-block; */
 }
 
 .radio__real {
@@ -42,6 +40,10 @@
     margin-bottom: 10px;
 }
 
-.radio__label {
+.radio__label-white {
     color: #fff;
+}
+
+.radio__label-black {
+    color: #444;
 }

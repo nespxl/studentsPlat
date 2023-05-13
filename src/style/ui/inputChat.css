@@ -1,0 +1,22 @@
+.chat-input__label {
+    width: 100%;
+    height: 100%;
+    margin-right: 38px;
+}
+
+.chat-input__input {
+    width: 100%;
+    height: 100%;
+    padding: 8px 12px;
+    outline: 2px solid transparent;
+    transition: all .1s ease;
+    border: 1px solid black;
+}
+.chat-input__input:hover {
+    outline: rgba(0, 68, 204, .6) 2px solid;
+    border: 1px solid transparent;
+}
+.chat-input__input:focus {
+    outline: #04c 2px solid;
+    border: 1px solid transparent;
+}

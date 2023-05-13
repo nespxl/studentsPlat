@@ -1,0 +1,7 @@
+.summary__block:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.summary__mini-block:not(:last-child) {
+    margin-bottom: 20px;
+}
