@@ -1,0 +1,36 @@
+.infoNews-container {
+    display: flex;
+}
+
+.infoNews__block:first-child {
+    width: 300%;
+    margin-right: 100px;
+}
+
+.infoNews__block:last-child {
+    width: 100%;
+}
+
+.infoNews__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.infoNews__img {
+    width: 100%;
+    height: 400px;
+    background: blue;
+    margin-bottom: 20px;
+}
+
+.infoNews__view {
+    font-size: 22px;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+.infoNews__decsription {
+    font-size: 18px;
+    line-height: 150%;
+}

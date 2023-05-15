@@ -9,7 +9,7 @@ export default function University() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Добавить высшее заведение'>
+                <WrapperPerson title='Добавить высшее заведение' option='person'>
                     Добавить высшее заведение
                 </WrapperPerson>
             </MainContainer>

@@ -9,7 +9,7 @@ export default function Notifications() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Уведомления'>
+                <WrapperPerson title='Уведомления' option='person'>
                     У вас нет уведомлений
                 </WrapperPerson>
             </MainContainer>

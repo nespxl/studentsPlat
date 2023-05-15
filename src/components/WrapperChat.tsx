@@ -15,7 +15,7 @@ export default function WrapperChat({socket}: ISocket) {
 
     return (
         <div className="chat-container">
-            <ChatList />
+            <ChatList socket={socket} />
             <WrapperChatWindow socket={socket} />
         </div>
     )

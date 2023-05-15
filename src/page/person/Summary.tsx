@@ -10,7 +10,7 @@ export default function Summary() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Добавить опыт работы'>
+                <WrapperPerson title='Добавить опыт работы' option='person'>
                     <WrapperSummary />
                 </WrapperPerson>
             </MainContainer>

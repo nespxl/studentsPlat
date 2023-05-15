@@ -10,7 +10,7 @@ export default function Specialization() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Специальность'>
+                <WrapperPerson title='Специальность' option='person'>
                     <WrapperSpecialization />
                 </WrapperPerson>
             </MainContainer>

@@ -10,7 +10,7 @@ export default function Contact() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Контакты'>
+                <WrapperPerson title='Контакты' option='person'>
                     <WrapperContact />
                 </WrapperPerson>
             </MainContainer>

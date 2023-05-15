@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import '../style/form.css'
 import { Input } from '../components/UI/Input'
+import { ISocket } from '../interface/app.interface'
 
-export default function FormAuthentication() {
+export default function FormAuthentication({socket}: ISocket) {
+    const navigate = useNavigate()
+    const [user, setUser] = useState('')
+
     const [name, setName] = useState('')
     const [surname, setSurname] = useState('')
     const [password, setPassword] = useState('')
@@ -57,6 +61,13 @@ export default function FormAuthentication() {
         }
     }
 
+    function handleSubmit(e: any) {
+        e.preventDefault()
+        localStorage.setItem('user', socket.id)
+        socket.emit('newUser', {user, socketID: socket.id})
+        navigate('/person')
+    }
+
     return (
         <React.Fragment>
             <Header />
@@ -90,7 +101,7 @@ export default function FormAuthentication() {
                         </Input>
                     </div>
                     <div className='form__wrapper-sub'>
-                        <input type="submit" className='form__sub' value='Войти' />
+                        <input type="submit" className='form__sub' value='Войти' onClick={(e) => handleSubmit(e)} />
                     </div>
                 </form>
                 <div className='redirect'>

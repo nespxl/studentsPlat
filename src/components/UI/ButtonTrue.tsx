@@ -12,7 +12,7 @@ export default function ButtonTrue({setCount, count}: IButton) {
     return (
         <div className='button-add-container'>
             <div className={!(count > 2) ? '' : 'button-disabled'}></div>
-            <button className="button-true" onClick={(e) => addNewField(e)}>Добавить</button>
+            <button className="button-true" onClick={(e) => addNewField(e)} disabled={(count === 3) ? true : false}>Добавить</button>
         </div>
     )
 }

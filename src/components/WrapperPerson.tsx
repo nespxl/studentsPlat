@@ -2,12 +2,12 @@ import { IWrapperPerson } from "../interface/app.interface";
 import WrapperPersonPanel from "./WrapperPersonPanel";
 import '../style/person/personPage.css'
 
-export default function WrapperPerson({ title, children }: IWrapperPerson) {
+export default function WrapperPerson({ title, option, children }: IWrapperPerson) {
     return (
         <div className='person'>
             <div className="person__panel-wrapper">
                 <div className='person__panel'>
-                    <WrapperPersonPanel />
+                    <WrapperPersonPanel option={option} />
                 </div>
             </div>
             <div className='person__info'>

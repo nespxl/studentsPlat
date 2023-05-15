@@ -11,7 +11,7 @@ export default function Chat({socket}: ISocket) {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Чат'>
+                <WrapperPerson title='Чат' option='person'>
                     <WrapperChat socket={socket} />
                 </WrapperPerson>
             </MainContainer>

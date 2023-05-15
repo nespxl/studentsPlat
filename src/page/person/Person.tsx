@@ -9,7 +9,7 @@ export default function Person() {
             <Header />
             <MainContainer>
                 <div>
-                    <WrapperPersonPanel />
+                    <WrapperPersonPanel option='person' />
                 </div>
             </MainContainer>
         </React.Fragment>

@@ -10,7 +10,7 @@ export default function Experiences() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Опыт работы'>
+                <WrapperPerson title='Опыт работы' option='person'>
                     <WrapperExperience />
                 </WrapperPerson>
             </MainContainer>

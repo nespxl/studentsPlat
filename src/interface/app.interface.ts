@@ -35,10 +35,12 @@ export interface IInputForm {
 export interface ILinkPerson {
     text: string
     link: string
+    option: string
 }
 
 export interface IWrapperPerson {
     title: string
+    option: string
     children: ReactNode
 }
 
@@ -106,4 +108,27 @@ export interface INewsList {
 
 export interface ITextArea {
     placeholder?: string
+}
+
+export interface IViewJob {
+    typePage: string
+}
+
+export interface IItemCard {
+    id: any
+    title: any
+    body: any
+}
+
+export interface IWrapperPersonPanel {
+    option: string
+}
+
+export interface IPersonNavigation {
+    option: string
+}
+
+export interface IEmployersField {
+    title: string
+    description: string
 }

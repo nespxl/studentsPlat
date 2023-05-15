@@ -9,7 +9,7 @@ export default function Additional() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Добавить дополнительное заведение'>
+                <WrapperPerson title='Добавить дополнительное заведение' option='person'>
                     Добавить дополнительное заведение
                 </WrapperPerson>
             </MainContainer>

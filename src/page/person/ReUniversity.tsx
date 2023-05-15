@@ -9,7 +9,7 @@ export default function ReUniversity() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Добавить высшее заведение'>
+                <WrapperPerson title='Добавить высшее заведение' option='person'>
                     Изменить высшее заведение
                 </WrapperPerson>
             </MainContainer>

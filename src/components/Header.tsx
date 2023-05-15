@@ -33,7 +33,7 @@ export default function Header() {
                         <Link to='/job' className='nav__link'>Вакансии</Link>
                     </li>
                     <li className='nav__elem'>
-                        <Link to='/employers' className='nav__link'>Работодателям</Link>
+                        <Link to='/employers/register' className='nav__link'>Работодателям</Link>
                     </li>
                 </ul>
             </nav>

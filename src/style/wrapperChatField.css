@@ -1,5 +1,8 @@
 .wrapper-chat-window {
     width: 100%;
+    background: #eee;
+    padding: 40px;
+    border-radius: 16px;
 }
 
 .field-message {

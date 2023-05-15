@@ -16,7 +16,7 @@ export default function Info() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Личная информация'>
+                <WrapperPerson title='Личная информация' option='person'>
                     <WrapperFormPerson>
                         <div className='info__avatar-block'>
                             <div className='info__avatar'>

@@ -9,7 +9,7 @@ export default function Response() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Отлики'>
+                <WrapperPerson title='Отлики' option='person'>
                     У вас нет откликов
                 </WrapperPerson>
             </MainContainer>

@@ -5,7 +5,7 @@ import { APINews } from '../utils/APINews';
 import MainContainer from '../components/UI/MainContainer';
 import WrapperMainList from '../components/WrapperMainList';
 import { INews } from '../interface/app.interface';
-import ItemNews from '../components/ItemNews';
+import ItemCard from '../components/ItemCard';
 
 export default function JobPage() {
     const { news } = useAppSelector(state => state.sliceNews)
@@ -19,10 +19,10 @@ export default function JobPage() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperMainList title='Работа'>
+                <WrapperMainList title='Работа' option='person'>
                     <div>
                         {news.map((elem: INews) => (
-                            <ItemNews key={elem.id} id={elem.id} title={elem.title} body={elem.body} />
+                            <ItemCard key={elem.id} id={elem.id} title={elem.title} body={elem.body} />
                         ))}
                     </div>
                 </WrapperMainList>

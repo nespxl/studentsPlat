@@ -1,0 +1,61 @@
+.employers-view-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.employers-view__header-block:first-child {
+    margin-right: auto;
+}
+
+.employers-view__avatar {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 100%;
+    margin-bottom: 40px;
+}
+
+.employers-view__company-name {
+    margin: 0;
+    padding: 0;
+    line-height: 130%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.employers-view__header-list {
+    list-style: none;
+    text-align: right;
+}
+
+.employers-view__header-elem {
+    margin-bottom: 10px;
+}
+
+.employers-view__header-elem:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.employers-view__header-field {
+    font-size: 18px;
+}
+.employers-view__header-field:first-child {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.employers-view__details:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.employers-view__details-title {
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.employers-view__details-description {
+    font-size: 18px;
+    line-height: 150%;
+}

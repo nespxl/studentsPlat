@@ -63,7 +63,7 @@ export default function WrapperContact() {
                 <ButtonTrue setCount={setCountMessanger} count={countMessanger} />
             </div>
             <div className='wrapper-contact__block-label'>
-                <h2 className='wrapper-contact__title'>Ссылка на персональную страницу</h2>
+                <h2 className='wrapper-contact__title'>Ссылка на сайт</h2>
                 {siteArray.map(elem => (
                     <Input place={elem[2]} type={elem[1]} name={elem[0]} className='form-contact__input' />
                 ))}

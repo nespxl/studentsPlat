@@ -5,7 +5,7 @@ import WrapperMainList from '../components/WrapperMainList';
 import { useAppDispatch, useAppSelector } from '../hooks/customHookQuery';
 import { APINews } from '../utils/APINews';
 import { INews } from '../interface/app.interface';
-import ItemNews from '../components/ItemNews';
+import ItemCard from '../components/ItemCard';
 
 export default function PracticPage() {
     const { news } = useAppSelector(state => state.sliceNews)
@@ -19,10 +19,10 @@ export default function PracticPage() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperMainList title='Практика'>
+                <WrapperMainList title='Практика' option='person'>
                     <div>
                         {news.map((elem: INews) => (
-                            <ItemNews key={elem.id} id={elem.id} title={elem.title} body={elem.body} />
+                            <ItemCard key={elem.id} id={elem.id} title={elem.title} body={elem.body} />
                         ))}
                     </div>
                 </WrapperMainList>

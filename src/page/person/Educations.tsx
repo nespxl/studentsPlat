@@ -10,7 +10,7 @@ export default function Educations() {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <WrapperPerson title='Образование'>
+                <WrapperPerson title='Образование' option='person'>
                     <WrapperEducation />
                 </WrapperPerson>
             </MainContainer>
